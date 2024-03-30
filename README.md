@@ -1,16 +1,27 @@
-### Hi there 👋
+# Hi there, I'm Matthias! 👋
 
-<!--
-**MatzeLopi/MatzeLopi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Bioengineering Student | Computer Science Enthusiast | Programmer
 
-Here are some ideas to get you started:
+🌱 **About Me:**
+- 🎓 Currently pursuing my Master's in Bioengineering with a focus on Computer Science and Machine Learning.
+- 💻 Passionate about leveraging technology to drive innovation and solve real-world problems in the field of bioengineering.
+- 🚀 Always exploring new avenues at the intersection of biology, engineering, and computing.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Skills & Expertise:
+- 💡 Proficient in Python, with C and C++ as strong secondary languages.
+- 🌟 Familiar with Java and Haskell.
+
+### Currently Learning:
+- 📚 Currently expanding my skills in [C++](https://github.com/MatzeLopi/c4everyone).
+- 📚 Next up, deep dive into Tensorflow
+
+### Projects:
+- 🛠️ Currently working on my C++ skills
+
+### Let's Connect!
+- 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski-4936841a2/).
+
+### Fun Fact:
+- 🎶 In my free time, I enjoy sports, music, and good coffee!
+
+### Stay Curious, Stay Creative, and Keep Coding! ✨
