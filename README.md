@@ -19,11 +19,11 @@
 
 
 ### Currently Learning:
-- 📚 Expanding my skills in [![][C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
+- 📚 Expanding my skills in [![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
 - 📚 Next up, deep dive into Tensorflow! ![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)
 
 ### Projects:
-- 🛠️ [![][C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
+- 🛠️ [![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
 
 ### Let's Connect!
 - 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski-4936841a2/).
