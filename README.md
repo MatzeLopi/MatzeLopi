@@ -19,8 +19,8 @@
 
 
 ### Currently Learning:
-- 📚 Expanding my skills in ![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus).
-- 📚 Next up, deep dive into Tensorflow
+- 📚 Expanding my skills in [C++](https://github.com/MatzeLopi/c4everyone). ![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus)
+- 📚 Next up, deep dive into Tensorflow! ![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)
 
 ### Projects:
 - 🛠️ 
