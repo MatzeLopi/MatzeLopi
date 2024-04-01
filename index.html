@@ -25,18 +25,19 @@
             font-size: 50px;
             color: white;
             font-family: Arial, sans-serif;
+            text-align: center; 
         }
     </style>
 </head>
 <body>
-    <canvas id="canvas" width="1200" height="600"></canvas>
-    <div class="welcome-text">Welcome</div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="welcome-text">Hi there!</div>
     <script>
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
 
         const nodes = [];
-        const nodeCount = 150;
+        const nodeCount = 200;
         const maxDistance = 150; // End distance for gradient
         const nodeRadius = 5;
         const nodeSpeed = 1.5;
@@ -115,7 +116,7 @@
                     const dist = distance(nodes[i], nodes[j]);
                     if (dist < maxDistance) {
                         const intensity = 1 - (dist - startDistance) / (maxDistance - startDistance);
-                        const color = `rgba(0, 255, 0, ${intensity})`;
+                        const color = `rgba(0, 156, 166, ${intensity})`;
                         ctx.beginPath();
                         ctx.moveTo(nodes[i].x, nodes[i].y);
                         ctx.lineTo(nodes[j].x, nodes[j].y);
