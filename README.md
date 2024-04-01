@@ -10,6 +10,7 @@
 ### Technologies:
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus)
+![SQL](https://img.shields.io/badge/-SQL-000?&logo=c)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=while&style=flat)
 ![Haskell Badge](https://img.shields.io/badge/Haskell-5D4F85?logo=haskell&logoColor=fff&style=flat)
