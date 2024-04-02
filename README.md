@@ -1,4 +1,3 @@
-![](https://github.com/MatzeLopi/MatzeLopi/blob/main/animation.webm)
 # Hi there, I'm Matthias! 👋
 
 ### Bioengineering Student | Computer Science Enthusiast | Programmer
