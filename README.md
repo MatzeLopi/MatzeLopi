@@ -1,5 +1,5 @@
 # Hi there, I'm Matthias! 👋
-
+![](https://github.com/MatzeLopi/MatzeLopi/blob/de68e57713549ea58cd66b4e6ad0077c86c01595/animation.gif)
 ### Bioengineering Student | Computer Science Enthusiast | Programmer
 
 🌱 **About Me:**
