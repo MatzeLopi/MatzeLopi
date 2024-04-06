@@ -46,16 +46,20 @@
     <canvas id="canvas" width="800" height="600"></canvas>
     <div class="welcome-text">Hi there!</div>
     <button class="download-button">Download GIF</button>
-    <script type="module">
+    <script type="text/javascript" src="LZWEncoder.js"></script>
+    <script type="text/javascript" src="NeuQuant.js"></script>
+    <script type="text/javascript" src="GIFEncoder.js"></script>
+    <script type="text/javascript">
+        
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
 
         const nodes = [];
-        const nodeCount = 200;
-        const maxDistance = 150; // End distance for gradient
-        const nodeRadius = 5;
-        const nodeSpeed = 1.5;
-        const startDistance = 10; // Start distance for gradient
+        const nodeCount = 200; // Number of nodes
+        const maxDistance = 100; // End distance for gradient
+        const nodeRadius = 5; // Radius of nodes
+        const nodeSpeed = 1.5; // Speed of nodes
+        const downloadButton = document.querySelector('.download-button'); // Download button
 
         canvas.width = window.innerWidth - 10;
 
@@ -129,8 +133,7 @@
                 for (let j = i + 1; j < nodes.length; j++) {
                     const dist = distance(nodes[i], nodes[j]);
                     if (dist < maxDistance) {
-                        const intensity = 1 - (dist - startDistance) / (maxDistance - startDistance);
-                        const color = `rgba(0, 156, 166, ${intensity})`;
+                        const color = `rgb(0, 156, 166)`;
                         ctx.beginPath();
                         ctx.moveTo(nodes[i].x, nodes[i].y);
                         ctx.lineTo(nodes[j].x, nodes[j].y);
@@ -161,33 +164,24 @@
 
         animate();
 
-        function startRecording() {
-            const chunks = []; // here we will store our recorded media chunks (Blobs)
-            const stream = canvas.captureStream(); // grab our canvas MediaStream
-            const rec = new MediaRecorder(stream); // init the recorder
-            // every time the recorder has new data, we will store it in our array
-            rec.ondataavailable = e => chunks.push(e.data);
-            // only when the recorder stops, we construct a complete Blob from all the chunks
-            rec.onstop = e => exportVid(new Blob(chunks, {type: 'video/webm'}));
+        function downloadGIF() {
+            var encoder = new GIFEncoder();
+            encoder.setRepeat(0); 
+            encoder.setDelay(1000 / 60); // 60 fps
+            encoder.start();
+            for (let i = 0; i < 360; i++) {
+                animate()
+                console.log('Frame', i);
+                encoder.addFrame(ctx);
+            }
+            encoder.finish();
             
-            rec.start();
-            setTimeout(()=>rec.stop(), 10000); // stop recording in 3s
+            // Download the GIF
+            encoder.download('animation.gif');
         }
 
-        function exportVid(blob) {                    
-            const vid = document.createElement('video');
-            vid.src = URL.createObjectURL(blob);
-            vid.controls = true;
-            document.body.appendChild(vid);
-            const a = document.createElement('a');
-            a.download = 'myvid.webm';
-            a.href = vid.src;
-            a.textContent = 'download the video';
-            document.body.appendChild(a);
-        }
+        downloadButton.addEventListener('click', downloadGIF);
 
-        const downloadButton = document.querySelector('.download-button');
-        downloadButton.addEventListener('click', startRecording);
     </script>
 </body>
 </html>
