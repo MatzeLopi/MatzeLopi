@@ -196,12 +196,12 @@
 
             // Add text to canvas
             ctx.fillStyle = 'white';
-            ctx.font = '40px Arial';
+            ctx.font = '65px Arial';
             // Allign text to center
             ctx.textAlign = 'center';
             // Change this text to your name
-            ctx.fillText("Hi there,", (window.innerWidth - 10) / 2, 280);
-            ctx.fillText("I'm Matthias", (window.innerWidth - 10) / 2, 330);
+            ctx.fillText("Hi there,", (window.innerWidth - 10) / 2, 275);
+            ctx.fillText("I'm Matthias", (window.innerWidth - 10) / 2, 340);
 
             requestAnimationFrame(animate);
         }
@@ -211,7 +211,7 @@
         function downloadGIF() {
             var encoder = new GIFEncoder();
             encoder.setRepeat(0); 
-            encoder.setDelay(1000 / 30); // 60 fps
+            encoder.setDelay(1000 / 30); // 30 fps
             encoder.start();
             for (let i = 0; i < 300; i++) {
                 animate()
