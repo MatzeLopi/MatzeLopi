@@ -1,7 +1,7 @@
 ![](https://github.com/MatzeLopi/MatzeLopi/blob/27879df29b6f7fc4b2d85a8ff05f6732a4593d6f/animation.gif)
 ### Bioengineering Student | Computer Science Enthusiast | Programmer
 
-🌱 **About Me:**
+### 🌱 About Me
 - 🎓 Currently pursuing my Master's in Bioengineering with a focus on Computer Science and Machine Learning.
 - 💻 Passionate about leveraging technology to drive innovation and solve real-world problems in the field of bioengineering.
 - 🚀 Always exploring new avenues at the intersection of biology, engineering, and computing.
