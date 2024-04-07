@@ -4,9 +4,8 @@
     <title>Node Animation</title>
     <style>
         body {
-            background-color: #222;
+            background-color: rgb(36, 41, 46);
             margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,17 +14,6 @@
 
         canvas {
             border: 1px solid #4e4e4e;
-        }
-
-        .welcome-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 50px;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center; 
         }
 
         .download-button {
@@ -44,7 +32,6 @@
 </head>
 <body>
     <canvas id="canvas" width="800" height="600"></canvas>
-    <div class="welcome-text">Hi there!</div>
     <button class="download-button">Download GIF</button>
     <script type="text/javascript" src="LZWEncoder.js"></script>
     <script type="text/javascript" src="NeuQuant.js"></script>
@@ -63,6 +50,7 @@
 
         canvas.width = window.innerWidth - 10;
 
+
         // Node class
         class Node {
             constructor(x, y) {
@@ -75,7 +63,7 @@
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, nodeRadius, 0, Math.PI * 2);
-                ctx.fillStyle = 'lightgray';
+                ctx.fillStyle = 'rgb(211, 211, 211)';
                 ctx.fill();
             }
 
@@ -159,6 +147,14 @@
             drawNodes();
             connectNodes();
 
+            // Add text to canvas
+            ctx.fillStyle = 'white';
+            ctx.font = '40px Arial';
+            // Allign text to center
+            ctx.textAlign = 'center';
+            ctx.fillText('Hi there,', (window.innerWidth - 10) / 2, 280);
+            ctx.fillText('I am Matthias', (window.innerWidth - 10) / 2, 330);
+
             requestAnimationFrame(animate);
         }
 
@@ -167,7 +163,7 @@
         function downloadGIF() {
             var encoder = new GIFEncoder();
             encoder.setRepeat(0); 
-            encoder.setDelay(1000 / 60); // 60 fps
+            encoder.setDelay(1000 / 30); // 60 fps
             encoder.start();
             for (let i = 0; i < 360; i++) {
                 animate()
