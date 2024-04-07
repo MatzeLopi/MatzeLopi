@@ -1,4 +1,4 @@
-![](https://github.com/MatzeLopi/MatzeLopi/blob/f77a688515ff6501b1307adacade693d8d75a89a/animation.gif)
+![](https://github.com/MatzeLopi/MatzeLopi/blob/27879df29b6f7fc4b2d85a8ff05f6732a4593d6f/animation.gif)
 ### Bioengineering Student | Computer Science Enthusiast | Programmer
 
 🌱 **About Me:**
