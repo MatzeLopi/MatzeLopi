@@ -28,11 +28,44 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        .slider-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            color: white;
+            z-index: 1;
+        }
+
+        .slider-container label {
+            margin-right: 10px;
+        }
+
+        .slider-container input[type="range"] {
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        .slider-container span {
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
     <canvas id="canvas" width="800" height="600"></canvas>
-    <button class="download-button">Download GIF</button>
+
+    <div class="slider-container">
+        <label for="maxDistance">Max Distance:</label>
+        <input type="range" id="maxDistance" min="50" max="500" step="10" value="250">
+        <span id="maxDistanceValue">250</span>
+        <label for="nodeRadius">Node Radius:</label>
+        <input type="range" id="nodeRadius" min="1" max="10" step="1" value="5">
+        <span id="nodeRadiusValue">5</span>
+        <button class="download-button">Download GIF</button>
+
+    </div>
     <script type="text/javascript" src="LZWEncoder.js"></script>
     <script type="text/javascript" src="NeuQuant.js"></script>
     <script type="text/javascript" src="GIFEncoder.js"></script>
@@ -40,12 +73,23 @@
         
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
-
         const nodes = [];
-        const nodeCount = 200; // Number of nodes
-        const maxDistance = 100; // End distance for gradient
-        const nodeRadius = 5; // Radius of nodes
-        const nodeSpeed = 1.5; // Speed of nodes
+        const maxDistanceSlider = document.getElementById('maxDistance');
+        const nodeRadiusSlider = document.getElementById('nodeRadius');
+        const nodeCount = 200;
+        const nodeSpeed = 1.5;
+
+        let maxDistance = parseInt(maxDistanceSlider.value);
+        let nodeRadius = parseInt(nodeRadiusSlider.value);
+
+        maxDistanceSlider.addEventListener('input', function() {
+            maxDistance = parseInt(maxDistanceSlider.value);
+        });
+
+        nodeRadiusSlider.addEventListener('input', function() {
+            nodeRadius = parseInt(nodeRadiusSlider.value);
+        });
+
         const downloadButton = document.querySelector('.download-button'); // Download button
 
         canvas.width = window.innerWidth - 10;
@@ -63,7 +107,7 @@
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, nodeRadius, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgb(211, 211, 211)';
+                ctx.fillStyle = 'rgb(20, 20, 20)';
                 ctx.fill();
             }
 
@@ -152,8 +196,8 @@
             ctx.font = '40px Arial';
             // Allign text to center
             ctx.textAlign = 'center';
-            ctx.fillText('Hi there,', (window.innerWidth - 10) / 2, 280);
-            ctx.fillText('I am Matthias', (window.innerWidth - 10) / 2, 330);
+            ctx.fillText("Hi there,", (window.innerWidth - 10) / 2, 280);
+            ctx.fillText("I'm Matthias", (window.innerWidth - 10) / 2, 330);
 
             requestAnimationFrame(animate);
         }
@@ -165,7 +209,7 @@
             encoder.setRepeat(0); 
             encoder.setDelay(1000 / 30); // 60 fps
             encoder.start();
-            for (let i = 0; i < 360; i++) {
+            for (let i = 0; i < 600; i++) {
                 animate()
                 console.log('Frame', i);
                 encoder.addFrame(ctx);
