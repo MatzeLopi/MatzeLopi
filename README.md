@@ -22,7 +22,8 @@
 - 📚 Next up, deep dive into Tensorflow! ![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)
 
 ### Projects:
-- 🛠️ Currently working on [C++](https://github.com/MatzeLopi/c4everyone)
+- 🛠️ Working on Coursera Course for [C++](https://github.com/MatzeLopi/c4everyone)
+- 🛠️ Fun project [GamesCollection](https://github.com/MatzeLopi/GamesCollection)
 
 ### Let's Connect!
 - 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski-4936841a2/).
