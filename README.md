@@ -26,7 +26,7 @@
 - 🛠️ Fun project [GamesCollection](https://github.com/MatzeLopi/GamesCollection)
 
 ### Let's Connect!
-- 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski-4936841a2/).
+- 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski/).
 
 ### Fun Fact:
 - 🎶 In my free time, I enjoy sports, music, and good coffee!
