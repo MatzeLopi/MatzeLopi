@@ -18,8 +18,8 @@
 
 
 ### Currently Learning:
-- 📚 Learning Tensorflow! [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)](https://github.com/MatzeLopi/cs-tensorflow)
-- 📚 Recently finished expanding my Skills in C++ [![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
+- 📚 Learning [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)](https://github.com/MatzeLopi/cs-tensorflow)
+- 📚 Recently finished expanding my Skills in [![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
 
 
 ### Projects:
