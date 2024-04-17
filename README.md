@@ -18,13 +18,14 @@
 
 
 ### Currently Learning:
-- 📚 Learning Tensorflow! ![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)
+- 📚 Learning Tensorflow! [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)](https://github.com/MatzeLopi/cs-tensorflow)
 - 📚 Recently finished expanding my Skills in C++ [![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus&style=flat)](https://github.com/MatzeLopi/c4everyone)
 
 
 ### Projects:
 - 🛠️ Fun project [GamesCollection](https://github.com/MatzeLopi/GamesCollection)
-- 🛠️ Working on Coursera Course for [C++](https://github.com/MatzeLopi/c4everyone)
+- 🛠️ Started learning [Tensorflow](https://github.com/MatzeLopi/cs-tensorflow)
+- ✅ Coursera specialization [Coding for Everyone, C and C++](https://github.com/MatzeLopi/c4everyone)
 
 
 ### Let's Connect!
