@@ -22,7 +22,6 @@
 
 
 ### Projects:
-- 🛠️ Fun project [GamesCollection](https://github.com/MatzeLopi/GamesCollection)
 - ✅ DeepLearning.AI [Tensorflow Developer](https://github.com/MatzeLopi/cs-tensorflow)
 - ✅ Coursera specialization [Coding for Everyone, C and C++](https://github.com/MatzeLopi/c4everyone)
 
