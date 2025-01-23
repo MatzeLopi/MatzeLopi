@@ -8,17 +8,19 @@
 
 ### Technologies:
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)
+![Tensorflow](https://img.shields.io/badge/-tensorflow-FF3F06?&logo=tensorflow&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus)
 ![C](https://img.shields.io/badge/-C-000?&logo=c)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=while&style=flat)
-![Haskell](https://img.shields.io/badge/Haskell-5D4F85?logo=haskell&logoColor=fff&style=flat)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
 
 
 ### Currently Learning:
-- 📚 Currently learning [![Rust](https://img.shields.io/badge/Rust-281C1C?logo=tensorflow&logoColor=fff&style=flat)](https://github.com/MatzeLopi/RustyRookie)
+- 📚 Currently learning [![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)](https://github.com/MatzeLopi/minimal-axum-template)
+- 📚 Currently learning [![React](https://img.shields.io/badge/-React-000?&logo=React)](https://github.com/MatzeLopi/musical-doodle)
 
 
 ### Projects:
