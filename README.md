@@ -8,6 +8,7 @@
 
 ### Technologies:
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![JavaScript](https://img.shields.io/badge/JavaScript-1572B6?logo=javascript&logoColor=fff)
 ![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)
 ![Tensorflow](https://img.shields.io/badge/-tensorflow-FF3F06?&logo=tensorflow&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-blue?logo=cplusplus)
@@ -18,9 +19,10 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
 
 
+
 ### Currently Learning:
-- 📚 Currently learning [![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)](https://github.com/MatzeLopi/minimal-axum-template)
-- 📚 Currently learning [![React](https://img.shields.io/badge/-React-000?&logo=React)](https://github.com/MatzeLopi/musical-doodle)
+- 📚 [![Rust](https://img.shields.io/badge/-Rust-000?&logo=Rust)](https://github.com/MatzeLopi/minimal-axum-template)
+- 📚 Learning Repo [![React](https://img.shields.io/badge/-React-000?&logo=React)](https://github.com/MatzeLopi/musical-doodle)
 
 
 ### Projects:
