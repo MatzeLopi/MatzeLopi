@@ -6,6 +6,8 @@
 - 💻 Passionate about leveraging technology to drive innovation and solve real-world problems in the field of bioengineering.
 - 🚀 Always exploring new avenues at the intersection of biology, engineering, and computing.
 
+---
+
 ### Technologies:
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/JavaScript-1572B6?logo=javascript&logoColor=fff)
@@ -17,6 +19,8 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=while&style=flat)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
+
+---
 
 ### Featured Projects & Coursework
 
