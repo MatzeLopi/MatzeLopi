@@ -1,6 +1,8 @@
 ![](https://github.com/MatzeLopi/MatzeLopi/blob/27879df29b6f7fc4b2d85a8ff05f6732a4593d6f/animation.gif)
 ### Bioengineering Student | Computer Science Enthusiast | Programmer
 
+---
+
 ### About Me:
 - 🎓 Currently pursuing my Master's in Bioengineering with a focus on Computer Science and Machine Learning.
 - 💻 Passionate about leveraging technology to drive innovation and solve real-world problems in the field of bioengineering.
@@ -29,12 +31,17 @@
   - **[DeepLearning.AI TensorFlow Developer Specialization](https://github.com/MatzeLopi/cs-tensorflow)**: Coursework demonstrating the ability to build, train, and deploy a wide variety of neural networks using TensorFlow.
   - **[C and C++ for Everyone Specialization](https://github.com/MatzeLopi/c4everyone)**: In-depth coursework covering foundational and advanced concepts in C and C++ from the University of Michigan.
 
+---
 
 ### Let's Connect!
 - 📫 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/matthias-lopinski/).
 
+---
+
 ### Fun Fact:
 - 🎶 In my free time, I enjoy sports, music, and good coffee!
+
+---
 
 ### Stay Curious, Stay Creative, and Keep Coding! ✨
 
