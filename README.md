@@ -26,7 +26,7 @@
 
 ### Featured Projects & Coursework
 
-  - **[Data-Based Modeling & Control (KIT)](https://www.google.com/search?q=https://github.com/MatzeLopi/kit-2243070)**: A comprehensive project from my university coursework implementing various data-driven control models from scratch. This repository features a unified API for models like ARX, DMD, and Hammerstein, all built with JAX and Flax.
+  - **[Data-Based Modeling & Control (KIT)](https://github.com/MatzeLopi/kit-2243070)**: A comprehensive project from my university coursework implementing various data-driven control models from scratch. This repository features a unified API for models like ARX, DMD, and Hammerstein, all built with JAX and Flax.
   - **[Musical Doodle](https://github.com/MatzeLopi/musical-doodle)**: A full-stack web application developed to explore building dynamic and interactive user interfaces with React, showcasing skills in modern frontend development.
   - **[DeepLearning.AI TensorFlow Developer Specialization](https://github.com/MatzeLopi/cs-tensorflow)**: Coursework demonstrating the ability to build, train, and deploy a wide variety of neural networks using TensorFlow.
   - **[C and C++ for Everyone Specialization](https://github.com/MatzeLopi/c4everyone)**: In-depth coursework covering foundational and advanced concepts in C and C++ from the University of Michigan.
